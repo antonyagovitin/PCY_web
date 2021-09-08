@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@500&display=swap');
+
+header {
+  width: 100%;
+  padding: 10px 0.5% 0px 0.5%;
+  background: transparent;
+  float: left;
+  position: fixed;
+  font-family: 'Exo 2', sans-serif;
+}
+
+#about {
+	margin: 20px 10px;
+	padding: 10px 0px;
+	border-top: thin solid gray;
+	border-bottom: thin solid gray;
+}
+
+#about a {
+	color: gray;
+	text-decoration-line: none;
+	padding: 10px;
+}
+
+#about a:hover {
+	color: white;
+	background-color: #cccccc;
+}
+
+#about a:active {
+	color: white;
+	background-color: #75c1ff;
+}
