@@ -1,12 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@500&display=swap');
 
-header {
+body {
   width: 100%;
   padding: 10px 0.5% 0px 0.5%;
   background: transparent;
   float: left;
   position: fixed;
   font-family: 'Exo 2', sans-serif;
+}
+
+@media (min-width: 480px) and (max-width: 1024px) {
+  body {
+    font-size: calc(14px + (18 - 14) * ( (100vw - 480px) / ( 1024 - 480) ));
+  }
 }
 
 #about {
@@ -28,6 +34,27 @@ header {
 }
 
 #about a:active {
+	color: white;
+	background-color: #75c1ff;
+}
+
+#znaki {
+	padding-bottom: 1cm;
+	margin: 20px 10px;
+}
+
+#znaki a {
+	color: gray;
+	text-decoration-line: none;
+	padding: 10px;
+}
+
+#znaki a:hover {
+	color: white;
+	background-color: #cccccc;
+}
+
+#znaki a:active {
 	color: white;
 	background-color: #75c1ff;
 }
